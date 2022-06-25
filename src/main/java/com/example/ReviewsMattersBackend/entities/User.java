@@ -1,5 +1,6 @@
-package com.example.ReviewsMattersBackend.user;
+package com.example.ReviewsMattersBackend.entities;
 
+import com.example.ReviewsMattersBackend.config.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

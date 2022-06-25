@@ -11,5 +11,4 @@ public class ReviewsMattersBackendApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ReviewsMattersBackendApplication.class, args);
 	}
-
 }

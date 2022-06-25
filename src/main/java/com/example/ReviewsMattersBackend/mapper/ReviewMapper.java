@@ -1,7 +1,10 @@
-package com.example.ReviewsMattersBackend.movie.review;
+package com.example.ReviewsMattersBackend.mapper;
 
-import com.example.ReviewsMattersBackend.movie.Movie;
-import com.example.ReviewsMattersBackend.user.User;
+import com.example.ReviewsMattersBackend.dto.ReviewDto;
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.entities.Review;
+import com.example.ReviewsMattersBackend.entities.User;
+import com.example.ReviewsMattersBackend.dto.ReviewResponseDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

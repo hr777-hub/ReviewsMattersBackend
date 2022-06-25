@@ -1,7 +1,7 @@
-package com.example.ReviewsMattersBackend.movie.review;
+package com.example.ReviewsMattersBackend.entities;
 
-import com.example.ReviewsMattersBackend.movie.Movie;
-import com.example.ReviewsMattersBackend.user.User;
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.entities.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

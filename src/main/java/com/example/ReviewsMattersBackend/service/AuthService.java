@@ -1,12 +1,11 @@
-package com.example.ReviewsMattersBackend.auth;
+package com.example.ReviewsMattersBackend.service;
 
-import com.example.ReviewsMattersBackend.auth.token.ConfirmationToken;
-import com.example.ReviewsMattersBackend.auth.token.ConfirmationTokenService;
+import com.example.ReviewsMattersBackend.dto.RegistrationRequestDto;
+import com.example.ReviewsMattersBackend.entities.ConfirmationToken;
 import com.example.ReviewsMattersBackend.email.EmailValidator;
-import com.example.ReviewsMattersBackend.user.User;
-import com.example.ReviewsMattersBackend.user.UserRepository;
-import com.example.ReviewsMattersBackend.user.UserRole;
-import com.example.ReviewsMattersBackend.user.UserService;
+import com.example.ReviewsMattersBackend.entities.User;
+import com.example.ReviewsMattersBackend.dao.UserRepository;
+import com.example.ReviewsMattersBackend.config.UserRole;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -69,5 +68,4 @@ public class AuthService {
         return userRepository.findByUsername(principal.getName())
                 .orElseThrow(() -> new UsernameNotFoundException("User name not found - " + principal.getName()));
     }
-
 }

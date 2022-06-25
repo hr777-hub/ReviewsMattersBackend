@@ -1,5 +1,8 @@
-package com.example.ReviewsMattersBackend.movie.review;
+package com.example.ReviewsMattersBackend.controller;
 
+import com.example.ReviewsMattersBackend.dto.ReviewDto;
+import com.example.ReviewsMattersBackend.dto.ReviewResponseDto;
+import com.example.ReviewsMattersBackend.service.ReviewService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

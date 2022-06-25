@@ -1,8 +1,12 @@
-package com.example.ReviewsMattersBackend.movie.review;
+package com.example.ReviewsMattersBackend.service;
 
-import com.example.ReviewsMattersBackend.auth.AuthService;
-import com.example.ReviewsMattersBackend.movie.Movie;
-import com.example.ReviewsMattersBackend.movie.MovieRepository;
+import com.example.ReviewsMattersBackend.dao.ReviewRepository;
+import com.example.ReviewsMattersBackend.dto.ReviewDto;
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.dao.MovieRepository;
+import com.example.ReviewsMattersBackend.entities.Review;
+import com.example.ReviewsMattersBackend.mapper.ReviewMapper;
+import com.example.ReviewsMattersBackend.dto.ReviewResponseDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

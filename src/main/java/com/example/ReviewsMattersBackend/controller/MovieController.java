@@ -1,5 +1,8 @@
-package com.example.ReviewsMattersBackend.movie;
+package com.example.ReviewsMattersBackend.controller;
 
+import com.example.ReviewsMattersBackend.dto.MoviesTileDto;
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.service.MoviesService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +24,6 @@ public class MovieController {
     public ResponseEntity<List<MoviesTileDto>> getAllMovie(){
         return status(HttpStatus.OK).body(moviesService.getAllMovie());
     }
-
     @PostMapping("/add")
     public ResponseEntity<Movie> addMovie(@RequestBody Movie movie) {
         return status(HttpStatus.CREATED).body(moviesService.addMovie(movie));

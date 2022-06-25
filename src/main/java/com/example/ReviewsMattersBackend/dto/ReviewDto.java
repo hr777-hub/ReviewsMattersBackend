@@ -1,4 +1,4 @@
-package com.example.ReviewsMattersBackend.movie.review;
+package com.example.ReviewsMattersBackend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

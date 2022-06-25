@@ -1,6 +1,6 @@
 package com.example.ReviewsMattersBackend.security;
 
-import com.example.ReviewsMattersBackend.user.UserService;
+import com.example.ReviewsMattersBackend.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

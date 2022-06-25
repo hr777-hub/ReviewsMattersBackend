@@ -1,4 +1,4 @@
-package com.example.ReviewsMattersBackend.movie;
+package com.example.ReviewsMattersBackend.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

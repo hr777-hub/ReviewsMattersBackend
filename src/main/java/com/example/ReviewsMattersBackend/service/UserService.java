@@ -1,9 +1,10 @@
-package com.example.ReviewsMattersBackend.user;
+package com.example.ReviewsMattersBackend.service;
 
-import com.example.ReviewsMattersBackend.auth.token.ConfirmationToken;
-import com.example.ReviewsMattersBackend.auth.token.ConfirmationTokenService;
+import com.example.ReviewsMattersBackend.entities.ConfirmationToken;
+import com.example.ReviewsMattersBackend.dao.UserRepository;
 import com.example.ReviewsMattersBackend.email.MailService;
 import com.example.ReviewsMattersBackend.email.NotificationEmail;
+import com.example.ReviewsMattersBackend.entities.User;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

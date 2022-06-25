@@ -1,5 +1,9 @@
-package com.example.ReviewsMattersBackend.movie;
+package com.example.ReviewsMattersBackend.service;
 
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.mapper.MovieMapper;
+import com.example.ReviewsMattersBackend.dao.MovieRepository;
+import com.example.ReviewsMattersBackend.dto.MoviesTileDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +22,7 @@ public class MoviesService {
     public Movie addMovie(Movie movie){
         return movieRepository.save(movie);
     }
+
     public Movie findMovieById(Long movieId){
           return movieRepository.findById(movieId).orElseThrow(() -> new IllegalStateException("movie with id "+movieId+" not found"));
     }

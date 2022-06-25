@@ -1,5 +1,7 @@
-package com.example.ReviewsMattersBackend.auth;
+package com.example.ReviewsMattersBackend.controller;
 
+import com.example.ReviewsMattersBackend.service.AuthService;
+import com.example.ReviewsMattersBackend.dto.RegistrationRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

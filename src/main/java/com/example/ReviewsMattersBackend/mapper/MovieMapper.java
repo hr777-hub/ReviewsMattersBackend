@@ -1,5 +1,7 @@
-package com.example.ReviewsMattersBackend.movie;
+package com.example.ReviewsMattersBackend.mapper;
 
+import com.example.ReviewsMattersBackend.entities.Movie;
+import com.example.ReviewsMattersBackend.dto.MoviesTileDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

@@ -1,5 +1,7 @@
-package com.example.ReviewsMattersBackend.auth.token;
+package com.example.ReviewsMattersBackend.service;
 
+import com.example.ReviewsMattersBackend.dao.ConfirmationTokenRepository;
+import com.example.ReviewsMattersBackend.entities.ConfirmationToken;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

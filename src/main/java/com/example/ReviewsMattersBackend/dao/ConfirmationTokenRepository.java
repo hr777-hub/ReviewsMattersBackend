@@ -1,5 +1,6 @@
-package com.example.ReviewsMattersBackend.auth.token;
+package com.example.ReviewsMattersBackend.dao;
 
+import com.example.ReviewsMattersBackend.entities.ConfirmationToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

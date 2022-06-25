@@ -1,5 +1,6 @@
-package com.example.ReviewsMattersBackend.user;
+package com.example.ReviewsMattersBackend.dao;
 
+import com.example.ReviewsMattersBackend.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
